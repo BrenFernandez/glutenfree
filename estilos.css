@@ -1,0 +1,221 @@
+*{margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;}
+
+body {background-color: white; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    font-family: impact;}
+h1 {color:rgba(220, 122, 9, 0.885); 
+    font-weight: 400; 
+    font-family: fantasy, monospace;
+margin: 10px;}
+
+
+/*......header......*/
+.navlist li {margin: 20px;
+    font-family: impact;
+    font-size: 25px;
+    display: inline;}
+h2 {color:rgba(220, 122, 9, 0.885); 
+    font-weight: 400; 
+    font-family: fantasy, monospace;
+    font-weight: center;}
+.navegador {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px; padding: 5px;}
+.logo {height: 100px;}
+
+/*.......index........*/
+.text {font-family: impact;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.496), rgba(0, 0, 0, 0.479)), url(https://ep01.epimg.net/elcomidista/imagenes/2017/03/22/receta/1490207087_380172_1490208031_media_normal.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    border: solid 5px black;
+    height: 650px;
+    background-attachment: fixed;}
+.not {color: white ;
+    font-size:30px ;
+    font-weight:400;}
+.gluten {color:orange ;
+    font-size:30px ;
+    font-weight:400;}
+.llevatuestilo {color:white ;
+    font-size:100px ;
+    font-weight:300 ;}
+.anotgluten {color:orange ;
+    font-size:100px ;
+    font-weight:300 ;}
+.coment {color:white ;
+    font-size:20px ;
+    font-weight:400 ;}
+
+/*.......footer.....*/
+.cierre {background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;}
+.redessociales {display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 20px;}
+.logo1 {height: 50px;}    
+.logost {width: 120px;
+    margin-top: 10px;}
+.todosderechos {color:white;
+    font-size: 20px;
+    font-family: verdana;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin-top: 30px;}
+
+/*.....que es el gluten.....*/
+.parrafo {
+    font-family: verdana;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.749);
+background-color: rgba(255, 166, 0, 0.234);
+border: solid white 4px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 30px;
+padding: 15px;}
+.parrafo1 {
+    font-family: verdana;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.749);
+background-color: rgba(255, 166, 0, 0.234);
+border: solid white 4px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 30px;
+padding: 15px;}
+
+/*------recetas-----*/
+
+.recetas {font-family: impact;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.496), rgba(0, 0, 0, 0.479)), url(https://ep01.epimg.net/elcomidista/imagenes/2017/03/22/receta/1490207087_380172_1490208031_media_normal.jpg);
+    background-position: center;
+    background-size: cover;
+    border: solid 5px black;
+    background-attachment: fixed;}
+.recetas2 {display: grid;
+grid-template-columns: 400px 400px 400px;
+grid-template-rows: auto;
+grid-template-areas: 
+"h1 h1 h1"
+"falfajor fcrepes fpiza"
+"alfajor crepes piza";
+justify-content: space-evenly;}
+.alfajor { grid-area: alfajor; 
+    list-style-type: none;font-family: verdana;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.749);
+background-color: rgba(255, 166, 0, 0.234);
+border: solid white 2px;
+margin: 10px;
+padding: 15px;}
+.crepes {grid-area: crepes;
+list-style-type: none;font-family: verdana;
+font-size: 15px;
+color: rgba(255, 255, 255, 0.749);
+background-color: rgba(255, 166, 0, 0.234);
+border: solid white 2px;
+margin: 10px;
+padding: 15px;}
+.piza { grid-area: piza; 
+    list-style-type: none;
+    font-family: verdana;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.749);
+background-color: rgba(255, 166, 0, 0.234);
+border: solid white 2px;
+margin: 10px;
+padding: 15px;}
+.falfajor{grid-area: falfajor;margin:10px;height: 390px;}
+.fcrepes {grid-area: fcrepes;margin: 10px;height: 390px;}
+.fpiza {grid-area: fpiza;margin: 10px;height: 390px;}
+.ayudita {border: white dotted 2px;
+font-size: medium;
+height: 30px;
+width: 400px;
+color: rgba(255, 255, 255, 0.781);}
+
+/*-----registro-----*/
+.registro { border: dotted 2px white; padding: 10px;
+text-align: center; color: rgba(255, 166, 0, 0.731);}
+
+
+
+
+
+/*---- mediaquery----*/
+@media screen and (max-width:1200px){
+    .navegador {display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px; padding: 5px;}
+    .navlist li {margin: 2px; display: flex;
+    flex-direction: column;}
+    .cierre {display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;}
+        .not {color: white ;
+            font-size:20px ;
+            font-weight:400;}
+        .gluten {color:orange ;
+            font-size:20px ;
+            font-weight:400;}
+        .llevatuestilo {color:white ;
+            font-size:70px ;
+            font-weight:300 ;}
+        .anotgluten {color:orange ;
+            font-size:70px ;
+            font-weight:300 ;}
+        .coment {color:white ;
+            font-size:30px ;
+            font-weight:400 ;}
+        .parrafo {display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;}
+        .parrafo1 {display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            font-size: small;}
+.recetas2 {display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "h1"
+    "falfajor" 
+    "alfajor"
+    "fcrepes"
+    "crepes" 
+    "fpiza"
+    "piza";
+    justify-content: space-evenly;}
+.falfajor{grid-area: falfajor;margin: 0px; height: 300px;}
+.fcrepes {grid-area: fcrepes;margin: 0px;height: 300px;}
+.fpiza {grid-area: fpiza;margin: 0px;height: 300px;}
+.ayudita {font-size: medium;
+    height: 40px;
+    width: 350px;}
+}
