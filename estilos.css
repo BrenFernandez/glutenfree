@@ -33,6 +33,7 @@ h2 {color:rgba(220, 122, 9, 0.885);
     align-items: center;
     margin: 0px; padding: 5px;}
 .logo {height: 100px;}
+.letas { color: rgb(0, 55, 255); text-decoration: none;}
 
 /*.......index........*/
 .text {font-family: impact;
@@ -43,6 +44,8 @@ h2 {color:rgba(220, 122, 9, 0.885);
     border: solid 5px black;
     height: 650px;
     background-attachment: fixed;}
+.text1 {margin-top: 20px;
+margin-left: 20px;}
 .not {color: white ;
     font-size:30px ;
     font-weight:400;}
@@ -157,7 +160,11 @@ color: rgba(255, 255, 255, 0.781);}
 
 /*-----registro-----*/
 .registro { border: dotted 2px white; padding: 10px;
-text-align: center; color: rgba(255, 166, 0, 0.731);}
+text-align: center; color: rgba(255, 166, 0, 0.731);
+animation-name: registro;
+animation-duration: 0.5s;
+animation-delay: 0.2;
+animation-timing-function: ease;}
 
 
 
@@ -218,4 +225,17 @@ text-align: center; color: rgba(255, 166, 0, 0.731);}
 .ayudita {font-size: medium;
     height: 40px;
     width: 350px;}
+}
+
+
+/*----------animaciones--------*/
+.letras:hover {color: white; text-decoration: underline;}
+.falfajor:hover {transform: scale(1,0.8);}
+.fcrepes:hover {transform: scale(1,0.8);}
+.fpiza:hover {transform: scale(1,0.8);}
+.logo:hover {transform: scale(1.2,1.2);}
+
+@keyframes registro {
+    0% {transform: translateY(400px) ;}
+    100% {transform: translateY(0px);}
 }
