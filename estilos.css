@@ -89,10 +89,10 @@ margin-left: 20px;}
     color: rgba(255, 255, 255, 0.749);
 background-color: rgba(255, 166, 0, 0.234);
 border: solid white 4px;
-display: flex;
+/*display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: center;
+align-items: center;*/
 margin: 30px;
 padding: 15px;}
 .parrafo1 {
@@ -101,10 +101,10 @@ padding: 15px;}
     color: rgba(255, 255, 255, 0.749);
 background-color: rgba(255, 166, 0, 0.234);
 border: solid white 4px;
-display: flex;
+/*display: flex;
 flex-direction: column;
 justify-content: center;
-align-items: center;
+align-items: center;*/
 margin: 30px;
 padding: 15px;}
 
@@ -116,42 +116,42 @@ padding: 15px;}
     background-size: cover;
     border: solid 5px black;
     background-attachment: fixed;}
-.recetas2 {display: grid;
+/*.recetas2 {display: grid;
 grid-template-columns: 400px 400px 400px;
 grid-template-rows: auto;
 grid-template-areas: 
 "h1 h1 h1"
 "falfajor fcrepes fpiza"
 "alfajor crepes piza";
-justify-content: space-evenly;}
-.alfajor { grid-area: alfajor; 
+justify-content: space-evenly;}*/
+.alfajor {/*grid-area: alfajor; */
     list-style-type: none;font-family: verdana;
     font-size: 15px;
-    color: rgba(255, 255, 255, 0.749);
-background-color: rgba(255, 166, 0, 0.234);
+    color: black;
+background-color: rgba(255, 166, 0, 0.571);
 border: solid white 2px;
 margin: 10px;
 padding: 15px;}
 .crepes {grid-area: crepes;
 list-style-type: none;font-family: verdana;
 font-size: 15px;
-color: rgba(255, 255, 255, 0.749);
+color: black;
 background-color: rgba(255, 166, 0, 0.234);
 border: solid white 2px;
 margin: 10px;
 padding: 15px;}
-.piza { grid-area: piza; 
+.piza {/* grid-area: piza;*/
     list-style-type: none;
     font-family: verdana;
     font-size: 15px;
-    color: rgba(255, 255, 255, 0.749);
+    color: black;
 background-color: rgba(255, 166, 0, 0.234);
 border: solid white 2px;
 margin: 10px;
 padding: 15px;}
 .falfajor{grid-area: falfajor;margin:10px;height: 390px;}
 .fcrepes {grid-area: fcrepes;margin: 10px;height: 390px;}
-.fpiza {grid-area: fpiza;margin: 10px;height: 390px;}
+.fpiza {grid-area: fpiza;margin: 10px;height: 390px;}*/
 .ayudita {border: white dotted 2px;
 font-size: medium;
 height: 30px;
