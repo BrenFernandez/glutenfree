@@ -17,23 +17,14 @@ margin: 10px;}
 
 
 /*......header......*/
-.navlist li {margin: 20px;
-    font-family: impact;
-    font-size: 25px;
-    display: inline;}
-h2 {color:rgba(220, 122, 9, 0.885); 
-    font-weight: 400; 
-    font-family: fantasy, monospace;
-    font-weight: center;}
-.navegador {
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0px; padding: 5px;}
-.logo {height: 100px;}
-.letas { color: rgb(0, 55, 255); text-decoration: none;}
+.navbar {
+    background-color: black !important;}
+.nav-link { font-size: x-large; 
+    color: rgb(0, 55, 255) !important; 
+    text-decoration: none;
+margin: 10px !important;
+padding: 0px !important;}
+
 
 /*.......index........*/
 .text {font-family: impact;
@@ -84,7 +75,7 @@ margin-left: 20px;}
 
 /*.....que es el gluten.....*/
 .parrafo {
-    font-family: verdana;
+    font-family: verdana !important;
     font-size: 20px;
     color: rgba(255, 255, 255, 0.749);
 background-color: rgba(255, 166, 0, 0.234);
@@ -116,32 +107,30 @@ padding: 15px;}
     background-size: cover;
     border: solid 5px black;
     background-attachment: fixed;}
-.recetas2 {display: grid;
+/*.recetas2 {display: grid;
 grid-template-columns: 400px 400px 400px;
 grid-template-rows: auto;
 grid-template-areas: 
 "h1 h1 h1"
 "falfajor fcrepes fpiza"
 "alfajor crepes piza";
-justify-content: space-evenly;}
-.alfajor { grid-area: alfajor; 
-    list-style-type: none;font-family: verdana;
+justify-content: space-evenly;}*/
+.alfajor { list-style-type: none;font-family: verdana;
     font-size: 15px;
     color: rgba(255, 255, 255, 0.749);
 background-color: rgba(255, 166, 0, 0.234);
 border: solid white 2px;
 margin: 10px;
 padding: 15px;}
-.crepes {grid-area: crepes;
-list-style-type: none;font-family: verdana;
+.crepes {list-style-type: none;
+font-family: verdana;
 font-size: 15px;
 color: rgba(255, 255, 255, 0.749);
 background-color: rgba(255, 166, 0, 0.234);
 border: solid white 2px;
 margin: 10px;
 padding: 15px;}
-.piza { grid-area: piza; 
-    list-style-type: none;
+.piza {list-style-type: none;
     font-family: verdana;
     font-size: 15px;
     color: rgba(255, 255, 255, 0.749);
@@ -149,15 +138,15 @@ background-color: rgba(255, 166, 0, 0.234);
 border: solid white 2px;
 margin: 10px;
 padding: 15px;}
-.falfajor{grid-area: falfajor;margin:10px;height: 390px;}
-.fcrepes {grid-area: fcrepes;margin: 10px;height: 390px;}
-.fpiza {grid-area: fpiza;margin: 10px;height: 390px;}
 .ayudita {border: white dotted 2px;
 font-size: medium;
 height: 30px;
 width: 400px;
 color: rgba(255, 255, 255, 0.781);}
-
+.d-block {height: 500px !important; width: 800px !important;}
+.carousel {height: 500px !important; width: 800px !important;}
+.carrusel {display: flex !important;
+justify-content: center !important;}
 /*-----registro-----*/
 .registro { border: dotted 2px white; padding: 10px;
 text-align: center; color: rgba(255, 166, 0, 0.731);
@@ -165,20 +154,16 @@ animation-name: registro;
 animation-duration: 0.5s;
 animation-delay: 0.2;
 animation-timing-function: ease;}
+.form-check { color: white !important;}
 
 
 
 
 
 /*---- mediaquery----*/
-@media screen and (max-width:1200px){
-    .navegador {display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0px; padding: 5px;}
-    .navlist li {margin: 2px; display: flex;
-    flex-direction: column;}
+@media screen and (max-width:994px){
+.text { height: 750px;}
+.navbar {background-color: rgb(81, 81, 81) !important;}
     .cierre {display: flex;
         flex-direction: column;
         justify-content: space-around;
