@@ -23,7 +23,15 @@ margin: 10px;}
     color: rgb(0, 55, 255) !important; 
     text-decoration: none;
 margin: 10px !important;
-padding: 0px !important;}
+padding: 0px !important;
+animation-name: nav !important;
+animation-duration: 0.5s !important;
+animation-delay: 0.2 !important;
+animation-timing-function: ease !important;}
+.navbar-brand {animation-name: nav !important;
+    animation-duration: 0.5s !important;
+    animation-delay: 0.2 !important;
+    animation-timing-function: ease !important;}
 
 
 /*.......index........*/
@@ -192,33 +200,17 @@ animation-timing-function: ease;}
                 justify-content: center;
                 align-items: center;
             font-size: small;}
-.recetas2 {display: grid;
-    grid-template-columns: 300px;
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "h1"
-    "falfajor" 
-    "alfajor"
-    "fcrepes"
-    "crepes" 
-    "fpiza"
-    "piza";
-    justify-content: space-evenly;}
 .falfajor{grid-area: falfajor;margin: 0px; height: 300px;}
 .fcrepes {grid-area: fcrepes;margin: 0px;height: 300px;}
 .fpiza {grid-area: fpiza;margin: 0px;height: 300px;}
 .ayudita {font-size: medium;
     height: 40px;
-    width: 350px;}
-}
+    width: 350px;}}
 
 
 /*----------animaciones--------*/
-.letras:hover {color: white; text-decoration: underline;}
-.falfajor:hover {transform: scale(1,0.8);}
-.fcrepes:hover {transform: scale(1,0.8);}
-.fpiza:hover {transform: scale(1,0.8);}
-.logo:hover {transform: scale(1.2,1.2);}
+.nav-link:hover {color: white; text-decoration: underline;}
+.navbar-brand:hover {transform: scale(1.2,1.2) !important;}
 
 @keyframes registro {
     0% {transform: translateY(400px) ;}
