@@ -70,6 +70,9 @@ margin-left: 20px;}
     justify-content: space-around;
     align-content: center;
     margin-top: 20px;}
+.redessociales1 {display: flex;
+    justify-content: space-around;
+    align-content: center;}
 .logo1 {height: 50px;}    
 .logost {width: 120px;
     margin-top: 10px;}
@@ -174,7 +177,7 @@ animation-timing-function: ease;}
 .navbar {background-color: rgb(81, 81, 81) !important;}
     .cierre {display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
         align-content: center;}
         .not {color: white ;
             font-size:20px ;
@@ -204,9 +207,12 @@ animation-timing-function: ease;}
 .fcrepes {grid-area: fcrepes;margin: 0px;height: 300px;}
 .fpiza {grid-area: fpiza;margin: 0px;height: 300px;}
 .ayudita {font-size: medium;
-    height: 40px;
-    width: 350px;}}
-
+    height: 50px;
+    width: 350px;}
+.redessociales {display: flex;
+    justify-content: space-evenly;}
+.redessociales1 {display: flex;
+        justify-content: space-evenly;}}
 
 /*----------animaciones--------*/
 .nav-link:hover {color: white; text-decoration: underline;}
